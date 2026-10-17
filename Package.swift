@@ -18,7 +18,8 @@ let package = Package(
 	],
 	dependencies: [
 		.package(url: "https://github.com/ChimeHQ/LanguageServerProtocol", from: "0.13.3"),
-		.package(url: "https://github.com/Frizlab/FSEventsWrapper", from: "2.1.0"),
+//		.package(url: "https://github.com/Frizlab/FSEventsWrapper", from: "2.1.0"),
+		.package(url: "https://github.com/mchakravarty/FSEventsWrapper", branch: "main"), // until new release of `FSEventsWrapper`
 		.package(url: "https://github.com/davbeck/swift-glob", from: "0.0.0"),
 		.package(url: "https://github.com/ChimeHQ/JSONRPC", from: "0.9.0"),
 		.package(url: "https://github.com/ChimeHQ/ProcessEnv", from: "1.0.0"),
